@@ -80,7 +80,7 @@ Vous remarquerez que plusieurs pages traitent de sujets qui n'ont rien à voir a
 
 Pour calculer la place de l'information dans l'espace francophone ou anglophone au Canada, il fallait déterminer la langue principale des 13 000 pages Facebook incluses dans mon extraction de données.
 
-C'est ce que fait le script [**langues.py**](langues.py) au moyen de trois bibliothèques python ([langdetect](https://pypi.org/project/langdetect/)	, [langid](https://pypi.org/project/langid/) et [polyglot](https://polyglot.readthedocs.io/en/latest/Installation.html)) pour examiner chacun des 899 999 posts pour en détecter la langue. Si deux ou trois bibliothèques s’entendent sur une langue donnée, le post est réputé être dans cette langue, sinon la langue est classée comme «inconnue» (à noter que ce script indiquait aussi si chaque post était issu d'une page d'information journalistique ou non).
+C'est ce que fait le script [**langues.py**](langues.py) au moyen de trois bibliothèques python ([langdetect](https://pypi.org/project/langdetect/), [langid](https://pypi.org/project/langid/) et [polyglot](https://polyglot.readthedocs.io/en/latest/Installation.html)) pour examiner chacun des 899 999 posts pour en détecter la langue. Si deux ou trois bibliothèques s’entendent sur une langue donnée, le post est réputé être dans cette langue, sinon la langue est classée comme «inconnue» (à noter que ce script indiquait aussi si chaque post était issu d'une page d'information journalistique ou non).
 
 Dans un premier temps, plus de 130 000 publications (près de 15% du total) étaient classées comme étant rédigées dans une langue inconnue. Souvent, il s'agissait de posts composés uniquement d'un ou de quelques emojis, ou encore d'images dont le texte n'avait pas pu être extrait.
 
@@ -94,7 +94,7 @@ Après cette opération, le nombre de posts dont la langue est inconnue est tomb
 
 ### Étape 5 - Analyse finale
 
-Le fichier résultant de l'étape 4 a enfin été analysé à l'aide de pandas. Le carnet [**canada.ipynb**](canada.ipynb) vous donne l'essentiel des opérations effectuées pour déterminer la place de l'information dans les pages Facebook publiées en français et en anglais au Canada.
+Le fichier résultant de l'étape 4 a enfin été analysé à l'aide de pandas. Le carnet [**Canada.ipynb**](Canada.ipynb) vous donne l'essentiel des opérations effectuées pour déterminer la place de l'information dans les pages Facebook publiées en français et en anglais au Canada.
 
 Le fichier [**bilan.csv**](bilan.csv) présente le résultat de cette analyse. Il donne, par type de post (issu d'une page qui fait de l'information journalistique ou non) et par langue:
 - le nombre de posts
