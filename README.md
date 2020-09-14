@@ -21,7 +21,7 @@ Mais je me rends compte que je n'ai malheureusement pas le droit de partager pub
 
 > *«You may not display Content from CrowdTangle as any sort of public-facing display, app, product or otherwise external format without the express written consent of CrowdTangle.»*
 
-Il me fera cependant plaisir de les partager avec [tout chercheur ou journaliste qui m'en fera la demande](mailto:roy.jean-hugues@uqam.ca).
+#### Il me fera cependant plaisir de les partager avec [tout chercheur ou journaliste qui m'en fera la demande](mailto:roy.jean-hugues@uqam.ca).
 
 Je vous donne tout de même une idée des informations auxquelles CrowdTangle donne accès en vous présentant les entêtes de colonnes et la première ligne du fichier reçu pour avril 2020 (je n'ai conservé que le début de certains textes pour respecter les conditions d'utilisation):
 
