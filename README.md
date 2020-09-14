@@ -1,5 +1,5 @@
 # facebook-canada
-#### Analyse des contenus journalistiques dans Facebook (2018-01-01 à 2020-06-30)
+#### Analyse des contenus journalistiques dans Facebook (sur deux ans et demi: du 1er janvier 2018 au 30 juin 2020)
 
 ![](facebook-canada.png)
 
@@ -13,7 +13,7 @@ Je m'intéresse à la période débutant le 1er janvier 2018 jusqu'au 30 juin 20
 
 À partir du menu de recherche de CrowdTangle, donc, j'ai fait 30 requêtes pour chacun des mois entre le 1er janvier 2018 et le 30 juin 2020. À chaque fois, j'ai reçu un courriel me prévenant qu'un _délectable_ fichier CSV m'attendait.
 
-[courriel_crowdtangle]
+![](courriel_crowdtangle.png)
 
 Ici, j'aurais dû vous donner un lien vers chacun des 30 fichiers que j'ai reçus afin de vous permettre de refaire ma démarche. J'essaie de faire de la recherche ouverte. La transparence est fondamentale pour moi, comme l'illustrent mes autres répertoires sur github.
 
