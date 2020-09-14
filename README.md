@@ -31,7 +31,7 @@ Je vous donne tout de même une idée des informations auxquelles CrowdTangle do
 
 ### Étape 2 - Nettoyage
 
-À l'aide du script [**ctcan.py**](ctcan.py), j'ai ensuite combiné ces 30 fichiers tout en faisant au passage trois opérations:
+À l'aide du script [**ctcan1.py**](ctcan1.py), j'ai ensuite combiné ces 30 fichiers tout en faisant au passage trois opérations:
 - une vérification pour repérer d'éventuels doublons
 - une réduction de l'URL de la publication pour n'en conserver que le «postID», numéro d'identification unique de chaque publication
 - un réorganisation de certaines colonnes
