@@ -1,7 +1,7 @@
 # facebook-canada
 #### Analyse des contenus journalistiques dans Facebook (sur deux ans et demi: du 1er janvier 2018 au 30 juin 2020)
 
-![](facebook-canada.png)
+![Image créée par Jean-Hugues Roy CC BY-NC et CC BY-ND (2020)](facebook-canada.png)
 
 Pour ce texte dans [La conversation](), j'ai procédé à une extraction puis une analyse de données dont je donne la méthodologie détaillé ci-dessous.
 
