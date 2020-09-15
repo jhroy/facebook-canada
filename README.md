@@ -3,7 +3,7 @@
 
 ![Image créée par Jean-Hugues Roy CC BY-NC et CC BY-ND (2020)](facebook-canada.png)
 
-Pour ce texte dans [_La Conversation_, édition canadienne francophone](), j'ai procédé à une extraction puis une analyse de données dont je donne la méthodologie détaillé ci-dessous.
+Pour ce texte dans [_La Conversation_, édition canadienne francophone](https://theconversation.com/ca-fr), j'ai procédé à une extraction puis une analyse de données dont je donne la méthodologie détaillé ci-dessous.
 
 ### Étape 1 - Extraction
 
