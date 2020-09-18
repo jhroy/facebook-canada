@@ -109,7 +109,7 @@ Parce qu'il n'est pas possible de filtrer par pays si on s'intéresse au contenu
 
 _Les pages Facebook suffisent-elles pour dire tout ce qui est «consommé» sur Facebook?_
 
-Non. Cette analyse ne peut pas, pour les raisons expliquées ci-dessus, inclure le contenu publié sur les groupes ou les profils Facebook, ni sur Instagram. On doit donc assumer que la proportion du contenu sur ces autres «produits» de Facebook doit ressembler à ce qu'on peut calculer sur les pages. C'est le mieux que l'on puisse faire avec les données fournies par Facebook.
+Non. Cette analyse ne peut pas, pour les raisons expliquées ci-dessus, inclure le contenu publié sur les groupes ou les profils Facebook, ni sur Instagram. Même dans les pages, [le contenu indexé par CrowdTangle dépend du nombre de personnes qui suivent cette page](https://help.crowdtangle.com/en/articles/1140930-what-is-crowdtangle-tracking). On doit donc assumer que la proportion du contenu sur ces autres «produits» de Facebook doit ressembler à ce qu'on peut calculer sur les pages. C'est le mieux que l'on puisse faire avec les données fournies par Facebook.
 
 _Comment CrowdTangle fait-il pour déterminer qu'une page est originaire d'un pays X ou Y?_
 
