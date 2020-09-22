@@ -74,7 +74,7 @@ Ce qui exclut:
 
 Il y en a 495. J'en ai peut-être omis. Mais je crois que les plus importants sont identifiés. Cette liste, je peux la partager. Il s'agit du fichier [**pages-canada.csv**](pages-canada.csv).
 
-Vous remarquerez que plusieurs pages traitent de sujets qui n'ont rien à voir avec les Canadiens, comme [Kajal Agarwal FC](https://www.facebook.com/imkajufan/), le fan club d'une actrice de Bollywood qui a plus de 5 millions d'abonnés! Même la page Facebook indique que l'adresse du club se trouve à Hyderabad. Mais cinq de ses administrateurs sont au Canada et deux en Inde. Pour Facebook, c'est donc une page canadienne. Faire le tri de plus de 13 000 pages Facebook serait beaucoup trop fastidieux; j'ai donc conservé la classification par pays de Facebook, même si elle est imparfaite. Cela signifie peut-être que la part des médias dans les pages Facebook canadiennes
+Vous remarquerez que plusieurs pages traitent de sujets qui ne sont pas spécifiquement Canadiens, comme [Kajal Agarwal FC](https://www.facebook.com/imkajufan/), le fan club d'une actrice de Bollywood qui a plus de 5 millions d'abonnés! Même la page Facebook indique que l'adresse du club se trouve à Hyderabad. Mais cinq de ses administrateurs sont au Canada et deux en Inde. Pour Facebook, c'est donc une page canadienne. Faire le tri de plus de 13 000 pages Facebook serait beaucoup trop fastidieux; j'ai donc conservé la classification par pays de Facebook, même si elle est imparfaite. Cela signifie peut-être que la part des médias dans les pages Facebook canadiennes
 
 ### Étape 4 - Détermination de la langue
 
