@@ -64,9 +64,9 @@ J'ai donc conservé:
 
 Ce qui exclut:
 - Des médias d'opinion (comme _Rebel News_ ou _Epochtimes Vancouver_, par exemples)
-- Des magazines de vedettes, «people» ou focalisant exclusivement sur le «lifestyle»)
+- Des magazines de vedettes, «people» ou focalisant exclusivement sur le «lifestyle»
 - Des sites qui calquent leur format sur des sites d'information pour faire la promotion de marques et de partis politiques (comme _Ontario News Now_, par exemple)
-- Des pages de journalistes individuel (comme _Sophie Thibault_ ou	_Scott Miller CTV_)
+- Des pages de journalistes individuel.le.s (comme _Sophie Thibault_ ou	_Scott Miller CTV_)
 - Des pages destinées à faire la promotion de médias, ou qui ne sont pas consacrées à l'information (comme _CBC Comedy_ ou _Global TV_)
 - Des stations de radio musicales (les réseaux Virgin, Red, Fly, myFM, Rouge, Boom, etc.)
 - Des sites faisant de la satire d'information (comme _The Burrard Street Journal_)
