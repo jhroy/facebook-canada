@@ -1,4 +1,5 @@
 # coding: utf-8
+# ©2020 Jean-Hugues Roy. GNU GPL v3.
 
 import csv, langid
 # from textblob import TextBlob
