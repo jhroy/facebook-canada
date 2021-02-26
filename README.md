@@ -113,7 +113,7 @@ Non. Cette analyse ne peut pas, pour les raisons expliquées ci-dessus, inclure 
 
 _Comment CrowdTangle fait-il pour déterminer qu'une page est originaire d'un pays X ou Y?_
 
-L'outil se sert des personnes qui administrent la page. Quand une page génère beaucoup d'achalandage, normalement, elle est gérée par toute une équipe. Certaines pages comptent jusqu'à une vingtaine d'administrateurs qui peuvent travailler de plusieurs pays différents (classiquement, à part le Canada, je voyais les États-Unis, le Royaumne-Uni, l'Inde, le Pakistan, la France, le Maroc). Le pays avec le plus d'administrateurs est le pays où cette page est réputée être basée. Il n'est pas nécessaire que les administrateurs canadiens forment la majorité pour que la page soit canadienne. Il peut arriver qu'il y a 8 administrateurs dans 7 pays différents, un par pays sauf le Canada qui en compte deux: boum! C'est réglé! La page est canadienne. :canada:
+L'outil se sert des personnes qui administrent la page. Quand une page génère beaucoup d'achalandage, normalement, elle est gérée par toute une équipe. Certaines pages comptent jusqu'à une cinquantaine d'administrateurs qui peuvent travailler de plusieurs pays différents (classiquement, à part le Canada, je voyais les États-Unis, le Royaume-Uni, l'Inde, le Pakistan, la France, le Maroc). Le pays avec le plus d'administrateurs est le pays où cette page est réputée être basée. Il n'est pas nécessaire que les administrateurs canadiens forment la majorité pour que la page soit canadienne. Il peut arriver qu'il y a 8 administrateurs dans 7 pays différents, un par pays sauf le Canada qui en compte deux: boum! C'est réglé! La page est canadienne. :canada:
 
 _Pourquoi n'avoir recueilli que 30 000 pages par mois?_
 
