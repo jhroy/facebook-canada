@@ -7,9 +7,9 @@ Pour ce texte dans [_La Conversation_, édition canadienne francophone](https://
 
 ### Étape 1 - Extraction
 
-J'ai utilisé [CrowdTangle](https://www.crowdtangle.com/), un outil de détection de contenu viral fourni par Facebook. Son interface de recherche permet, si on s'intéresse aux pages Facebook, par exemple, de demander les 30 000 publications les plus populaires dans un pays donné et au cours d'une période qu'on peut définir.
+J'ai utilisé [CrowdTangle](https://www.crowdtangle.com/), un outil de détection de contenu viral fourni par Facebook. Son interface de recherche permet, si on s'intéresse aux pages Facebook, par exemple, de demander les 30&nbsp;000 publications les plus populaires dans un pays donné et au cours d'une période qu'on peut définir.
 
-Je m'intéresse à la période débutant le 1er janvier 2018 jusqu'au 30 juin 2020. Je pourrais demander les 30 000 publications canadiennes les plus populaires sur toute cette période. Un échantillon de n = 30k est intéressant. Mais si je demande les 30 000 publications les plus populaire pour chacun des 30 mois sur la période visée, mon échantillon passe alors à 900k, ce qui est plus costaud.
+Je m'intéresse à la période débutant le 1er janvier 2018 jusqu'au 30 juin 2020. Je pourrais demander les 30&nbsp;000 publications canadiennes les plus populaires sur toute cette période. Un échantillon de n = 30k est intéressant. Mais si je demande les 30&nbsp;000 publications les plus populaire pour chacun des 30 mois sur la période visée, mon échantillon passe alors à 900k, ce qui est plus costaud.
 
 À partir du menu de recherche de CrowdTangle, donc, j'ai fait 30 requêtes pour chacun des mois entre le 1er janvier 2018 et le 30 juin 2020. À chaque fois, j'ai reçu un courriel me prévenant qu'un _délectable_ fichier CSV m'attendait.
 
@@ -23,7 +23,7 @@ Mais je me rends compte que je n'ai malheureusement pas le droit de partager pub
 
 #### Il me fera cependant plaisir de les partager avec [tout chercheur ou journaliste qui m'en fera la demande](mailto:roy.jean-hugues@uqam.ca).
 
-Je vous donne tout de même une idée des informations auxquelles CrowdTangle donne accès en vous présentant les entêtes de colonnes et la première ligne du fichier reçu pour avril 2020 (je n'ai conservé que le début de certains textes pour respecter les conditions d'utilisation):
+Je vous donne tout de même une idée des informations auxquelles CrowdTangle donne accès en vous présentant les entêtes de colonnes et la première ligne du fichier reçu pour avril&nbsp;2020 (je n'ai conservé que le début de certains textes pour respecter les conditions d'utilisation):
 
 |Page Name|User Name|Facebook Id|Likes at Posting|Created|Type|Likes|Comments|Shares|Love|Wow|Haha|Sad|Angry|Care|Video Share Status|Post Views|Total Views|Total Views For All Crossposts|Video Length|URL|Message|Link|Final Link|Image Text|Link Text|Description|Sponsor Id|Sponsor Name|Total Interactions|Total Interactions (weighted  —  Likes 1x Shares 1x Comments 1x Love 1x Wow 1x Haha 1x Sad 1x Angry 1x Care 1x )|
 |-----|-----|-----|----:|-----|-----|----:|----:|----:|----:|----:|----:|----:|----:|----:|-----|----:|----:|----:|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
@@ -31,12 +31,12 @@ Je vous donne tout de même une idée des informations auxquelles CrowdTangle do
 
 ### Étape 2 - Nettoyage
 
-À l'aide du script [**ctcan1.py**](ctcan1.py), j'ai ensuite combiné ces 30 fichiers tout en faisant au passage trois opérations:
+À l'aide du script [**ctcan1.py**](ctcan1.py), j'ai ensuite combiné ces 30&nbsp;fichiers tout en faisant au passage trois opérations:
 - une vérification pour repérer d'éventuels doublons
 - une réduction de l'URL de la publication pour n'en conserver que le «postID», numéro d'identification unique de chaque publication
 - un réorganisation de certaines colonnes
 
-J'obtenais un seul fichier de 899 999 lignes dont voici un exemple de la première ligne, avec des entêtes (ici encore, je n'ai conservé que le début de certains éléments textuels):
+J'obtenais un seul fichier de 899&nbsp;999 lignes dont voici un exemple de la première ligne, avec des entêtes (ici encore, je n'ai conservé que le début de certains éléments textuels):
 
 |page|code|fbID|pageLikes|date|annee|mois|jour|postID|message|texteImage|texteLien|desc|sponsor|sponsorID|typePost|statutVideo|dureeVideo|vuesPost|vuesTotal|vuesTotalCrossposts|partages|likes|love|wow|haha|triste|colere|solid|commentaires|interactions|
 |-----|-----|-----|----:|-----|----:|----:|----:|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|----:|
@@ -44,7 +44,7 @@ J'obtenais un seul fichier de 899 999 lignes dont voici un exemple de la premiè
 
 ### Étape 3 - Identification des pages journalistiques
 
-En faisant un tableau croisé dynamique	dans le fichier résultant de l'étape 2, j'ai obtenu une liste des quelque 13 018 pages ayant au moins un _post_ parmi les 899 999 plus populaires sur Facebook au Canada depuis le 1er janvier 2018.
+En faisant un tableau croisé dynamique	dans le fichier résultant de l'étape 2, j'ai obtenu une liste des quelque 13&nbsp;018 pages ayant au moins un _post_ parmi les 899&nbsp;999 plus populaires sur Facebook au Canada depuis le 1er janvier 2018.
 
 À partir de cette liste, j'ai ajouté une colonne pour identifier, manuellement, les pages appartenant à des médias d'information. Mes critères étaient simples: il faut que ce soient des médias où j'accepterais que les étudiant.e.s en journalisme de l'UQAM puissent [faire un stage](journalisme.uqam.ca/stages/).
 
@@ -78,11 +78,11 @@ Vous remarquerez que plusieurs pages traitent de sujets qui ne sont pas spécifi
 
 ### Étape 4 - Détermination de la langue
 
-Pour calculer la place de l'information dans l'espace francophone ou anglophone au Canada, il fallait déterminer la langue principale des 13 000 pages Facebook incluses dans mon extraction de données.
+Pour calculer la place de l'information dans l'espace francophone ou anglophone au Canada, il fallait déterminer la langue principale des 13&nbsp;000 pages Facebook incluses dans mon extraction de données.
 
 C'est ce que fait le script [**langues.py**](langues.py) au moyen de trois bibliothèques python ([langdetect](https://pypi.org/project/langdetect/), [langid](https://pypi.org/project/langid/) et [polyglot](https://polyglot.readthedocs.io/en/latest/Installation.html)) pour examiner chacun des 899 999 posts pour en détecter la langue. Si deux ou trois bibliothèques s’entendent sur une langue donnée, le post est réputé être dans cette langue, sinon la langue est classée comme «inconnue» (à noter que ce script indiquait aussi si chaque post était issu d'une page d'information journalistique ou non).
 
-Dans un premier temps, plus de 130 000 publications (près de 15% du total) étaient classées comme étant rédigées dans une langue inconnue. Souvent, il s'agissait de posts composés uniquement d'un ou de quelques emojis, ou encore d'images dont le texte n'avait pas pu être extrait.
+Dans un premier temps, plus de 130&nbsp;000 publications (près de 15% du total) étaient classées comme étant rédigées dans une langue inconnue. Souvent, il s'agissait de posts composés uniquement d'un ou de quelques emojis, ou encore d'images dont le texte n'avait pas pu être extrait.
 
 À la suggestion de [Naël Shiab](http://naelshiab.com/), à qui j'ai demandé d'examiner ma méthodologie, mes données et mes scripts, j'ai regardé, pour chaque post dont la langue est inconnue, quelle page l'a publié et de lui attribuer la langue dans laquelle la majorité des posts de cette page sont rédigés.
 
@@ -94,7 +94,7 @@ Après cette opération, le nombre de posts dont la langue est inconnue est tomb
 
 ### Étape 5 - Analyse finale
 
-Le fichier résultant de l'étape 4 a enfin été analysé à l'aide de pandas. Le carnet [**Canada.ipynb**](Canada.ipynb) vous donne l'essentiel des opérations effectuées pour déterminer la place de l'information dans les pages Facebook publiées en français et en anglais au Canada.
+Le fichier résultant de l'étape&nbsp;4 a enfin été analysé à l'aide de pandas. Le carnet [**Canada.ipynb**](Canada.ipynb) vous donne l'essentiel des opérations effectuées pour déterminer la place de l'information dans les pages Facebook publiées en français et en anglais au Canada.
 
 Le fichier [**bilan.csv**](bilan.csv) présente le résultat de cette analyse. Il donne, par type de post (issu d'une page qui fait de l'information journalistique ou non) et par langue:
 - le nombre de posts
@@ -115,10 +115,10 @@ _Comment CrowdTangle fait-il pour déterminer qu'une page est originaire d'un pa
 
 L'outil se sert des personnes qui administrent la page. Quand une page génère beaucoup d'achalandage, normalement, elle est gérée par toute une équipe. Certaines pages comptent jusqu'à une cinquantaine d'administrateurs qui peuvent travailler de plusieurs pays différents (classiquement, à part le Canada, je voyais les États-Unis, le Royaume-Uni, l'Inde, le Pakistan, la France, le Maroc). Le pays avec le plus d'administrateurs est le pays où cette page est réputée être basée. Il n'est pas nécessaire que les administrateurs canadiens forment la majorité pour que la page soit canadienne. Il peut arriver qu'il y a 8 administrateurs dans 7 pays différents, un par pays sauf le Canada qui en compte deux: boum! C'est réglé! La page est canadienne. :canada:
 
-_Pourquoi n'avoir recueilli que 30 000 pages par mois?_
+_Pourquoi n'avoir recueilli que 30&nbsp;000 pages par mois?_
 
-La limite de 30 000 résultats pour une requête donnée est une limite de l'outil CrowdTangle. Je me suis par ailleurs limité à une cueillette **par mois** pour des raisons pratiques. Choisir une granularité plus fine aurait demandé plus de temps. Demander les 30 000 publications les plus populaires **par semaine** aurait exigé 130 requêtes et aurait retourné près de 4 millions de posts dans 130 fichiers csv. Demander les 30 000 publications les plus populaires **par jour** aurait demandé 912 requêtes et retourné jusqu'à 27 millions de publications.
+La limite de 30&nbsp;000 résultats pour une requête donnée est une limite de l'outil CrowdTangle (au moment de la cueillette de données, à la fin de l'été 2020). Je me suis par ailleurs limité à une cueillette **par mois** pour des raisons pratiques. Choisir une granularité plus fine aurait demandé plus de temps. Demander les 30&nbsp;000 publications les plus populaires **par semaine** aurait exigé 130 requêtes et aurait retourné près de 4 millions de posts dans 130 fichiers csv. Demander les 30&nbsp;000 publications les plus populaires **par jour** aurait demandé 912 requêtes et retourné jusqu'à 27 millions de publications.
 
 _Si je me vante de savoir programmer, pourquoi avoir procédé **manuellement** à ma collecte de données plutôt que programmatiquement?_
 
-CrowdTangle dispose d'un [API](https://github.com/CrowdTangle/API/wiki/). Mais son [point d'accès _Search_](https://github.com/CrowdTangle/API/wiki/Search) n'est accessible que si on en fait la demande. Je n'y avait pas accès lorsque j'ai effectué ma collecte de données. J'y ai eu accès début septembre 2020. Mais l'API de CrowdTangle a des limites: six appels à la minute seulement et chaque appel ne retourne que 100 publications. C'est ainsi que de demander les 30 000 publications les plus populaires par jour demanderait à un script de rouler sans arrêt pendant plus de 31 jours! J'ai commencé à le faire. L'API, parfois, n'est pas accessible et le script plante régulièrement. Ça prendra assurément plus de 31 jours!! Je vais donc me contenter de mes 30 000 posts par mois.
+CrowdTangle dispose d'un [API](https://github.com/CrowdTangle/API/wiki/). Mais son [point d'accès _Search_](https://github.com/CrowdTangle/API/wiki/Search) n'est accessible que si on en fait la demande. Je n'y avait pas accès lorsque j'ai effectué ma collecte de données. J'y ai eu accès début septembre 2020. Mais l'API de CrowdTangle a des limites: six appels à la minute seulement et chaque appel ne retourne que 100 publications. C'est ainsi que de demander les 30&nbsp;000 publications les plus populaires par jour demanderait à un script de rouler sans arrêt pendant plus de 31 jours! J'ai commencé à le faire. L'API, parfois, n'est pas accessible et le script plante régulièrement. Ça prendra assurément plus de 31 jours!! Je vais donc me contenter de mes 30&nbsp;000 posts par mois.
